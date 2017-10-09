@@ -17,3 +17,9 @@
 .fadeIn{
   animation-name:  fadeIn;
 }
+
+/*Cargador*/
+svg path,
+svg rect{
+  fill: black;
+}
