@@ -9,7 +9,7 @@ import { PortafolioDetalleComponent } from './components/portafolio-detalle/port
 const app_routes: Routes = [
   { path:'home', component:PortafolioComponent },
   { path:'about', component:AboutComponent },
-  { path:'Portafolio', component:PortafolioComponent },
+  { path:'portafolio/:id', component:PortafolioDetalleComponent },
   // { path:'Portafolio-detalle', component:PortafolioDetalleComponent },
   { path:'**', pathMatch: 'full', redirectTo: 'home'}
 ];
