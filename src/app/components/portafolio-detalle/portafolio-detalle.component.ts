@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProductosService } from '../../services/productos.service';
 
+
 @Component({
   selector: 'app-portafolio-detalle',
   templateUrl: './portafolio-detalle.component.html',
