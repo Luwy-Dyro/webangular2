@@ -17,7 +17,7 @@
       <p>Espere por favor...</p>
     </div>
 
-    <div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4 animate fadeIn" *ngIf="_ps.productos_filtrado.length > 0 && !cargando ">
+    <div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4 animate fadeIn" *ngIf="_ps.productos_filtrado.length > 0 && !_ps.cargando ">
 
       <a class="rk-item ae-masonry__item"
          *ngFor="let producto of _ps.productos_filtrado"
